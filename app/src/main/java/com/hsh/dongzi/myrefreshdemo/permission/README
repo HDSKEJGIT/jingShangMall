@@ -1,0 +1,30 @@
+PermissionInfo permissionInfo = new PermissionInfo();
+permissionInfo.setPermission(Manifest.permission.READ_EXTERNAL_STORAGE);
+permissionInfo.setMessage("如果没有权限的时候，会弹框引导用户去系统设置中打开，此处的消息为AlertDialog中要显示的提示内容。");
+permissionInfo.setCallback(new PermissionCallback() {
+    @Override
+    public void jumpedToSetting(PermissionInfo permissionInfo) {
+
+    }
+
+    @Override
+    public void negativedToSetting(PermissionInfo permissionInfo) {
+
+    }
+
+    @Override
+    public void activityResult(PermissionInfo permissionInfo, int resultCode, Intent data) {
+
+    }
+
+    @Override
+    public void requestGranted(PermissionInfo permissionInfo) {
+
+    }
+
+    @Override
+    public void requestDenied(PermissionInfo permissionInfo) {
+
+    }
+});
+Permission.requestPermission(permissionInfo);

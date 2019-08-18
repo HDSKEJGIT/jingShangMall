@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyRefreshDemo</string>
+    <!--正式地址-->
+    <string name="online_url">http://www.jinshang9.com/jinshang-server/</string>
+    <!--测试地址-->
+    <string name="local_url">http://test.jinshang9.com/jinshang-server/</string>
+    <!-- true：开发测试环境 相应url为debug_url； false：正式部署环境 相应url为domain_url -->
+    <item name="isDebug" type="bool">true</item>
+    <string name="header_release">HAHAHHAHAHA</string>
+</resources>
