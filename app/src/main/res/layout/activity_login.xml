@@ -28,7 +28,9 @@
             android:gravity="center_vertical"
             android:orientation="horizontal"
             android:paddingLeft="@dimen/dp_9"
-            android:paddingRight="@dimen/dp_9">
+            android:paddingRight="@dimen/dp_9"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
 
             <ImageView
                 android:layout_width="@dimen/dp_16"
@@ -58,7 +60,9 @@
             android:gravity="center_vertical"
             android:orientation="horizontal"
             android:paddingLeft="@dimen/dp_9"
-            android:paddingRight="@dimen/dp_9">
+            android:paddingRight="@dimen/dp_9"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
 
             <ImageView
                 android:layout_width="@dimen/dp_16"

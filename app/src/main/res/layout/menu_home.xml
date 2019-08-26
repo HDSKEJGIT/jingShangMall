@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_48"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/Cl_a8a8a8" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/dp_3">
+
+            <ImageView
+                android:layout_width="@dimen/dp_36"
+                android:layout_height="@dimen/dp_36"
+                android:scaleType="fitXY"
+                android:src="@drawable/select_menu_home_icon" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_class"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/dp_3">
+
+            <ImageView
+                android:layout_width="@dimen/dp_36"
+                android:layout_height="@dimen/dp_36"
+                android:scaleType="fitXY"
+                android:src="@drawable/select_menu_msg_icon" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_shopping"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/dp_3">
+
+                <ImageView
+                    android:layout_width="@dimen/dp_36"
+                    android:layout_height="@dimen/dp_36"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/select_menu_shopping_icon" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_nums"
+                android:layout_width="@dimen/dp_16"
+                android:layout_height="@dimen/dp_16"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dp_26"
+                android:layout_marginTop="@dimen/dp_1"
+                android:background="@drawable/shape_round_number_red"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dp_13"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_mine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/dp_3">
+
+            <ImageView
+                android:layout_width="@dimen/dp_36"
+                android:layout_height="@dimen/dp_36"
+                android:scaleType="fitXY"
+                android:src="@drawable/select_menu_mine_icon" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
